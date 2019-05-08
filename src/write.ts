@@ -7,7 +7,7 @@ export function createWeeklyReport(name: string, fileName: string) {
 
   dest.write(`
 ■週間報告書(Weekly Report)
-報告週　${date(-7).year}/${date(-7).month}/${date(-7).day}-${date(0).year}/${date(0).month}/${date(0).day}
+報告週　${date(-6).year}/${date(-6).month}/${date(-6).day}-${date(0).year}/${date(0).month}/${date(0).day}
 報告者　${name}
 
 ■１．総括、特記事
